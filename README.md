@@ -13,7 +13,7 @@ The Library Management System is a Java-based application designed to manage the
 - Java Development Kit (JDK)
 - MySQL Server
 - MySQL Connector/J (JDBC Driver for MySQL)
-![library](https://github.com/sarthak-sharmaa/Library-Management-System/assets/147803893/d8f03d45-3f8f-4742-ae90-cc7d07de409a)
+
 
 ## Database Setup
 
@@ -54,4 +54,5 @@ The Library Management System is a Java-based application designed to manage the
 - **Book**: A class representing a book in the library.
 - **Student**: A class representing a student in the library.
 
-
+## GUI 
+![library](https://github.com/sarthak-sharmaa/Library-Management-System/assets/147803893/d8f03d45-3f8f-4742-ae90-cc7d07de409a)
