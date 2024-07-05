@@ -13,8 +13,9 @@ The Library Management System is a Java-based application designed to manage the
 - Java Development Kit (JDK)
 - MySQL Server
 - MySQL Connector/J (JDBC Driver for MySQL)
+![library](https://github.com/sarthak-sharmaa/Library-Management-System/assets/147803893/d8f03d45-3f8f-4742-ae90-cc7d07de409a)
 
-- ## Database Setup
+## Database Setup
 
 1. Install MySQL Server and MySQL Workbench.
 2. Create a new database called `library_db`.
@@ -39,4 +40,18 @@ The Library Management System is a Java-based application designed to manage the
         student_name VARCHAR(255) NOT NULL
     );
     ```
+
+## Usage
+
+1. Launch the application by running the `LibraryManagementSystem` class.
+2. Use the GUI to add books and students, search for books, borrow books, and return books.
+3. The application will interact with the MySQL database to store and retrieve information.
+
+## Project Structure
+
+- **LibraryManagementSystem**: The main class that initializes the GUI and handles user interactions.
+- **Library**: The class that handles database operations.
+- **Book**: A class representing a book in the library.
+- **Student**: A class representing a student in the library.
+
 
