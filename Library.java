@@ -5,7 +5,7 @@ public class Library {
 
     public Library() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "Sarthaksharma");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "root_password");
             System.out.println("Connection with SQL Database established");
         } catch (SQLException e) {
             e.printStackTrace();
